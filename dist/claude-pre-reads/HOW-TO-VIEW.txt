@@ -1,0 +1,19 @@
+Claude Pre-Reads for BCG Senior Leaders
+========================================
+
+How to view:
+1. Keep this folder intact (the index.html needs the videos/ subfolder beside it).
+2. Double-click `index.html` — it opens in your default browser.
+3. Click any of the 5 cards to watch a ~90-second briefing.
+
+Tips:
+- Speed controls are in the bottom of the popup (1x, 1.25x, 1.5x, 2x).
+- Arrow keys (← →) move between videos. Esc closes.
+- Your progress is remembered locally — already-watched cards show a checkmark.
+
+Sharing:
+- Send the whole folder (zipped). Recipients keep videos/ alongside index.html.
+- For SharePoint: upload the folder, share the link, recipients "Download" the
+  folder, unzip on their machine, and open index.html locally.
+
+Questions: Shubhank Goswami (goswami.shubhank@bcg.com)

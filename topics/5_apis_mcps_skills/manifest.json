@@ -1,0 +1,28 @@
+{
+  "title": "Claude Pre-Read 5: APIs, MCPs, Skills, Connectors",
+  "files": [
+    "topics/5_apis_mcps_skills/sources/perspective.md"
+  ],
+  "web_sources": [
+    {
+      "url": "https://docs.claude.com/en/api/overview",
+      "name": "Anthropic: API overview"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/introduction",
+      "name": "Model Context Protocol: Introduction"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "name": "Anthropic: Introducing the Model Context Protocol"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview",
+      "name": "Anthropic: Agent Skills overview"
+    },
+    {
+      "url": "https://www.anthropic.com/news/connectors",
+      "name": "Anthropic: Connectors"
+    }
+  ]
+}

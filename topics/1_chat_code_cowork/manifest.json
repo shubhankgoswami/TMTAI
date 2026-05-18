@@ -1,0 +1,29 @@
+{
+  "title": "Claude Pre-Read 1: Chat, Code & Cowork",
+  "files": [
+    "topics/1_chat_code_cowork/sources/perspective.md",
+    "shared/bcg_rai_guidelines.md"
+  ],
+  "web_sources": [
+    {
+      "url": "https://www.anthropic.com/claude",
+      "name": "Anthropic: Claude (Chat) product overview"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-code",
+      "name": "Anthropic: Claude Code overview"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/claude-code/overview",
+      "name": "Anthropic: Claude Code documentation"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-cowork",
+      "name": "Anthropic: Claude Cowork announcement"
+    },
+    {
+      "url": "https://www.anthropic.com/aup",
+      "name": "Anthropic: Acceptable Use Policy"
+    }
+  ]
+}

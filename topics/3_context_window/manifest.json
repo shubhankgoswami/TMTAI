@@ -1,0 +1,28 @@
+{
+  "title": "Claude Pre-Read 3: The Context Window",
+  "files": [
+    "topics/3_context_window/sources/perspective.md"
+  ],
+  "web_sources": [
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+      "name": "Anthropic: Context windows"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/long-context-tips",
+      "name": "Anthropic: Long context tips"
+    },
+    {
+      "url": "https://www.anthropic.com/news/100k-context-windows",
+      "name": "Anthropic: Introducing 100K context windows"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+      "name": "Anthropic: Prompt caching"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-2-1",
+      "name": "Anthropic: Claude 2.1 — 200K context"
+    }
+  ]
+}

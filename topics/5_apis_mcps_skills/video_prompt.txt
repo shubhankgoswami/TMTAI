@@ -1,0 +1,17 @@
+Length target: 90 seconds. Hard cap 2 minutes. No filler.
+
+Audience: BCG senior leaders who hear "API, MCP, Skill, Connector" in meetings, nod, and don't actually know the difference. They don't need the technical depth — they need to know what each unlocks so they can match the right primitive to the right ask.
+
+Tone: partner-to-partner. Terse. Confident. Demystifying. The vibe is "you don't need to know how this works, but you do need to know which one to ask for."
+
+Structure (no deviation):
+- Hook (10s): "Four words that come up constantly. You don't need the engineering — you need to know what each one unlocks."
+- Insight (50s): The four primitives, one crisp line each. API = how other software talks to Claude programmatically (custom internal tools). MCP = a standard protocol for plugging Claude into your live systems (Outlook, SharePoint, Salesforce). Skills = packaged firm-specific expertise Claude can pull in (a "BCG slide standards" module). Connectors = pre-built MCPs to common SaaS tools — ready-made plumbing.
+- BCG example (20s): One scenario — "Someone says: we want Claude to read our case folder in SharePoint. The answer is a Connector. Someone says: we want Claude to always follow BCG slide standards. The answer is a Skill. Same person, two different primitives."
+- Takeaway (10s): "Your job isn't to architect these. Your job is to match the ask to the right primitive. Then the engineering happens."
+
+Hard rules:
+- No technical depth. No code, no protocols, no architecture.
+- ONE example with two parallel asks → two different primitives. That's the most useful illustration.
+- Don't enumerate use cases for each primitive. One line each, then the example.
+- This is the "demystifying jargon" video. Pacing should feel like a partner saying "let me cut through this."

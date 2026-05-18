@@ -1,0 +1,28 @@
+{
+  "title": "Claude Pre-Read 4: Iteration",
+  "files": [
+    "topics/4_iteration/sources/perspective.md"
+  ],
+  "web_sources": [
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "name": "Anthropic: Prompt engineering overview"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/be-clear-and-direct",
+      "name": "Anthropic: Be clear, direct, and detailed"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/multishot-prompting",
+      "name": "Anthropic: Multishot prompting"
+    },
+    {
+      "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/chain-prompts",
+      "name": "Anthropic: Chain complex prompts"
+    },
+    {
+      "url": "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
+      "name": "Anthropic blog: Prompt engineering for business performance"
+    }
+  ]
+}

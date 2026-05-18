@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+
+# BCG-internal content (kept locally for pipeline, never published)
+shared/bcg_rai_guidelines.md
+
+# Local runtime state (notebook IDs, etc.)
+state/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Node (if ever added)
+node_modules/
+
+# DO NOT exclude docs/ — that's the GitHub Pages source.
+# Videos in docs/videos/ MUST be committed for the site to work.

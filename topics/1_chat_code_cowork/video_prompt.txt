@@ -1,0 +1,16 @@
+Length target: 90 seconds. Hard cap 2 minutes. No filler.
+
+Audience: BCG senior leaders — Project Leaders, Partners, Senior Partners. Many are confused about which Claude product to use when, and don't know the RAI rules.
+
+Tone: partner-to-partner. Terse. Confident. No hype. The vibe is "here's how to stop wasting time picking the wrong tool."
+
+Structure (no deviation):
+- Hook (10s): The mistake — people pick whichever Claude product they opened first, then conclude "Claude isn't very good" when output is weak. The interface mismatch is the problem, not the model.
+- Insight (50s): The three-tool taxonomy — Chat is for thinking (reactive partner: brainstorm, draft, sanity-check). Code is for engineering (autonomous agent on a repo). Cowork is for executing tasks on your local files (clean folders, batch-process docs, build deliverables). One sentence each, sharp and clear.
+- BCG example + RAI (20s): One concrete example — "Cleaning up 30 client interview transcripts into a single summary deck: that's Cowork, not Chat." Then one RAI sentence: "Never mix multiple cases in one chat, and check BCG's RAI policy before pointing any of these at sensitive client content."
+- Takeaway (10s): "Chat for thinking. Code for engineering. Cowork for tasks on files. Match the tool to the work."
+
+Hard rules:
+- ONE example. Don't enumerate use cases for each tool — pick the cleanest one example.
+- Include RAI but make it ONE sentence, not a list.
+- No LLM jargon. No vendor comparisons. No multi-point lists.

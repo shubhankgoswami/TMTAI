@@ -1,0 +1,17 @@
+Length target: 90 seconds. Hard cap 2 minutes. No filler.
+
+Audience: BCG senior leaders who've used ChatGPT for a year and are now adding Claude. They want to know what carries over and what to watch out for.
+
+Tone: partner-to-partner. Terse. Confident. Not "Claude is better than ChatGPT" — more "80% transfers, here's the 20% that doesn't."
+
+Structure (no deviation):
+- Hook (10s): "Most of what you learned in ChatGPT works in Claude. Don't relearn AI. Just learn the three things that are different."
+- Insight (50s): The three differences that matter — (1) Claude is more literal and less hedging; it takes you at your word so be precise. (2) Claude handles long documents materially better — entire decks, transcripts, proposals fit in one go. (3) Refusal behavior is different; the fix is clearer framing, not "please."
+- BCG example (20s): One concrete example — pasting a full 80-page client RFP into Claude and asking "what requirements am I not addressing in my draft response?" That's the kind of cross-cutting question Claude handles cleanly that ChatGPT often misses the middle of.
+- Takeaway (10s): "Don't paste your ChatGPT prompts wholesale. Strip the throat-clearing. Be specific about format and length."
+
+Hard rules:
+- Don't enumerate everything that's different. Three points, no more.
+- ONE example. The long-document one.
+- No benchmark numbers, no model version comparisons, no LLM jargon.
+- This is a watch-out video, not a tutorial. Pacing should feel like a partner warning a colleague.

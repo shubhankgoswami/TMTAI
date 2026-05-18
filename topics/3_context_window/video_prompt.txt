@@ -1,0 +1,18 @@
+Length target: 90 seconds. Hard cap 2 minutes. No filler.
+
+Audience: BCG senior leaders who use Claude like a chatbot — short prompts, small attachments. They're leaving the biggest capability on the table.
+
+Tone: partner-to-partner. Terse. Confident. The vibe is "you're using this wrong and here's the one shift that changes everything."
+
+Structure (no deviation):
+- Hook (10s): The mistake — people paste snippets and summaries. They treat Claude like a chatbot. Wrong mental model.
+- Insight (40s): The shift — Claude's context window is ~200,000 tokens, about 500 pages. The entire client deck. The entire RFP. The full transcript stack. Together. So Claude isn't a chatbot you ask quick questions. It's a workspace you load documents into.
+- BCG example (30s): One concrete example — pasting the entire client RFP plus your draft response, then asking "which requirements am I not addressing yet?" Claude reads both end-to-end. No chunking, no pre-summarizing, just the answer. That's a question you can't ask a chatbot.
+- Takeaway (10s): "If you're tempted to paste a summary or a section — paste the whole thing instead. The work is in the question, not the pre-digestion."
+
+Hard rules:
+- ONE example. The RFP one.
+- No token math, no technical depth on what tokens are.
+- No vendor comparisons.
+- Don't list three use cases — pick the cleanest example and go deep.
+- The mental model shift (chatbot → workspace) is the spine of the video.

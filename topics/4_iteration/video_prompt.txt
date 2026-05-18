@@ -1,0 +1,17 @@
+Length target: 90 seconds. Hard cap 2 minutes. No filler.
+
+Audience: BCG senior leaders — Project Leaders, Partners, Senior Partners. They use ChatGPT or Claude casually and treat it as a one-shot tool.
+
+Tone: partner-to-partner. Terse. Confident. No hype. No "AI is amazing." The vibe is "here's the one habit that separates people getting real value from people getting frustrated."
+
+Structure (no deviation):
+- Hook (10s): The mistake — they treat Claude like a vending machine. First prompt in, finished answer expected. The 70%-right output is the trap.
+- Insight (40s): The shift — stop reading the first output as the answer. Read it as a draft you're now reviewing with the model still in the room. Real output lives in turns 2 through 5.
+- BCG example (30s): One concrete example — drafting a steerco slide. Show the move: paste an exemplary slide as "the bar" before asking for a draft. Then critique → revise. Go deep on this one example.
+- Takeaway (10s): "Plan 4-5 turns, not one. Your first prompt is a scaffold, not a deliverable."
+
+Hard rules:
+- ONE idea. ONE example. No lists of techniques.
+- No LLM jargon (tokens, embeddings, RAG, etc.)
+- No vendor comparisons (ChatGPT, Gemini, etc.)
+- No multi-point enumeration beyond the structure above
