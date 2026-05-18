@@ -1,18 +1,24 @@
 Length target: 90 seconds. Hard cap 2 minutes. No filler.
 
-Audience: BCG senior leaders who use Claude like a chatbot — short prompts, small attachments. They're leaving the biggest capability on the table.
+Audience: BCG senior leaders who use Claude like a chatbot — short prompts, small attachments. They're leaving the biggest capability on the table. They want to be educated, not just told — give them enough so they can sound credible explaining this to a CTO or a colleague.
 
-Tone: partner-to-partner. Terse. Confident. The vibe is "you're using this wrong and here's the one shift that changes everything."
+Tone: partner-to-partner. Terse. Confident. The vibe is "you're using this wrong; here's the one shift that changes everything, and here's the background you need to actually explain why."
 
 Structure (no deviation):
-- Hook (10s): The mistake — people paste snippets and summaries. They treat Claude like a chatbot. Wrong mental model.
-- Insight (40s): The shift — Claude's context window is ~200,000 tokens, about 500 pages. The entire client deck. The entire RFP. The full transcript stack. Together. So Claude isn't a chatbot you ask quick questions. It's a workspace you load documents into.
-- BCG example (30s): One concrete example — pasting the entire client RFP plus your draft response, then asking "which requirements am I not addressing yet?" Claude reads both end-to-end. No chunking, no pre-summarizing, just the answer. That's a question you can't ask a chatbot.
+
+- Hook (10s): The mistake — most people paste snippets and summaries. They treat Claude like a chatbot. Wrong mental model.
+
+- Definition (20s): What a context window actually is — the model's working memory. The total volume of text it can hold during a single conversation: your prompt, the document you pasted, everything the model has said back. All of it shares one budget, measured in tokens (~3/4 of a word each). Once you blow past the limit, the earliest content falls out of memory.
+
+- The "lost in the middle" backstory (20s): Why this used to be a problem — older models like GPT-3.5 famously suffered from a "lost in the middle" issue. They paid attention to the beginning and end of a long document but missed the middle. That's a documented research finding, not anecdote. Newer frontier models including Claude have been specifically trained to read the full window evenly. Window size matters, but attending evenly matters as much.
+
+- Insight + BCG example (30s): Claude's window is ~200,000 tokens, about 500 pages, and it reads the middle. So Claude isn't a chatbot you ask quick questions — it's a workspace you load documents into. Concrete example: pasting the entire client RFP plus your draft response, then asking "which requirements am I not addressing yet?" That's a question you cannot ask a chatbot. It requires the model to hold both documents end-to-end in working memory simultaneously.
+
 - Takeaway (10s): "If you're tempted to paste a summary or a section — paste the whole thing instead. The work is in the question, not the pre-digestion."
 
 Hard rules:
-- ONE example. The RFP one.
-- No token math, no technical depth on what tokens are.
-- No vendor comparisons.
-- Don't list three use cases — pick the cleanest example and go deep.
+- The definition and lost-in-the-middle backstory are mandatory — they're the educational layer that makes senior leaders credible on this topic.
+- ONE concrete example (the RFP one).
+- No vendor comparisons beyond the GPT-3.5 historical reference.
+- Don't enumerate three use cases — pick the RFP example and go deep.
 - The mental model shift (chatbot → workspace) is the spine of the video.

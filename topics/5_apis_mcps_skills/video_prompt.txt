@@ -1,17 +1,27 @@
 Length target: 90 seconds. Hard cap 2 minutes. No filler.
 
-Audience: BCG senior leaders who hear "API, MCP, Skill, Connector" in meetings, nod, and don't actually know the difference. They don't need the technical depth — they need to know what each unlocks so they can match the right primitive to the right ask.
+Audience: BCG senior leaders who hear "API, MCP, Skill, Connector" in meetings, nod, and don't actually know the difference. They don't need the technical depth — they need to know what each unlocks AND how the four pieces relate to each other, so they can match the right primitive to the right ask without confusing them.
 
 Tone: partner-to-partner. Terse. Confident. Demystifying. The vibe is "you don't need to know how this works, but you do need to know which one to ask for."
 
-Structure (no deviation):
-- Hook (10s): "Four words that come up constantly. You don't need the engineering — you need to know what each one unlocks."
-- Insight (50s): The four primitives, one crisp line each. API = how other software talks to Claude programmatically (custom internal tools). MCP = a standard protocol for plugging Claude into your live systems (Outlook, SharePoint, Salesforce). Skills = packaged firm-specific expertise Claude can pull in (a "BCG slide standards" module). Connectors = pre-built MCPs to common SaaS tools — ready-made plumbing.
-- BCG example (20s): One scenario — "Someone says: we want Claude to read our case folder in SharePoint. The answer is a Connector. Someone says: we want Claude to always follow BCG slide standards. The answer is a Skill. Same person, two different primitives."
-- Takeaway (10s): "Your job isn't to architect these. Your job is to match the ask to the right primitive. Then the engineering happens."
+Structure (no deviation) — and follow this order strictly: API, then Connector, then MCP, then Skill. Connector must come BEFORE MCP.
+
+- Hook (10s): "Four words that come up constantly. They are not interchangeable — each lives at a different layer. You don't need the engineering. You need to know what each unlocks."
+
+- API (15s): The foundation. An API is how other software talks TO Claude programmatically — through code, not the chat interface. When a team builds a custom internal tool that uses Claude under the hood — a deal-screening agent, a research assistant inside existing software — they're calling the API. Everything else in this video sits on top of it.
+
+- Connector (15s): The easy "plug Claude into my tools" answer. A Connector is a pre-built bridge from Claude to a specific SaaS tool — SharePoint, Outlook, Salesforce, Google Drive. Anthropic ships them. You enable in settings; Claude can now read those tools using your existing permissions. No code, five-minute setup.
+
+- MCP (20s): The open standard that powers Connectors and lets you go beyond them. This is the key distinction from API and worth slowing down on: an API is code calling INTO Claude. MCP is Claude calling OUT to tools and data. Opposite directions. When you need Claude to integrate with a tool that doesn't have a Connector yet — say, your firm's internal knowledge platform — your engineering team builds an MCP server for that tool. Once built, it's reusable by any compatible AI.
+
+- Skill (15s): Different layer entirely. A Skill is packaged methodology, not a data connection. A "BCG slide standards" Skill, a "client memo voice" Skill. Loads templates, formatting rules, tone instructions automatically when invoked. Organizations use Skills to bake their methodology into Claude so every user gets the firm's voice by default.
+
+- BCG example + Takeaway (15s): Two parallel asks make this concrete. "We want Claude to read our case folder in SharePoint" — that's a Connector. "We want Claude to always follow BCG slide standards" — that's a Skill. "We want a custom internal tool that uses Claude" — that's the API. "We want Claude to talk to our proprietary system that doesn't have a Connector" — that's MCP. Your job isn't to architect these — your job is to match the ask to the right primitive.
 
 Hard rules:
-- No technical depth. No code, no protocols, no architecture.
-- ONE example with two parallel asks → two different primitives. That's the most useful illustration.
-- Don't enumerate use cases for each primitive. One line each, then the example.
-- This is the "demystifying jargon" video. Pacing should feel like a partner saying "let me cut through this."
+- ORDER: API, Connector, MCP, Skill. Don't shuffle.
+- API and MCP must feel DIFFERENT, not similar. Hit the directionality point hard — API is code calling into Claude; MCP is Claude calling out to tools. Opposite arrows.
+- Connector must come before MCP because it's the simpler/concrete case, and MCP becomes "the protocol under that."
+- One concrete BCG-style example at the end with parallel asks → different primitives.
+- No technical depth. No protocol details. No code.
+- This is the demystifying-jargon video. Pacing should feel like a partner cutting through buzzwords.
